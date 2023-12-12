@@ -31,7 +31,7 @@ const EditQuestion = () => {
 
     try {
       
-      const response = await axios.get(`localhost:5000/api/questions/${id}`);
+      const response = await axios.get(`https://ukcbackend.up.railway.app/api/questions/${id}`);
 
       setForm({
         ...form,
